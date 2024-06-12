@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ad64b99878.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <div id="main-cont" class="main-cont">
+        <h1 class="main-head">Create your own Todo</h1>
+        <input id="input" type="text" placeholder="What do you want to do?" class="input"/>
+        <button class="add-btn" id="add-btn" onclick="onGetTodo()">Add Todo</button>
+        <div class="todos-cont">
+            <h1 class="todo-head">Todos List</h1>
+            <ul id="todos-list" class="todos-list"></ul>
+        </div>
+        <button class="save-btn" id="saveBtn">Save</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

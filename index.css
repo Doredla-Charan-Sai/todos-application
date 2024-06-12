@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+*{
+    margin: 0px;
+}
+.main-cont{
+    background-color: rgb(203, 252, 252);
+    padding: 30px;
+}
+.main-head{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+}
+.add-btn{
+    background-color: rgb(16, 115, 235);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.todos-cont{
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+}
+.todo-head{
+    font-family: 'Roboto';
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 190, 190);
+    padding: 10PX;
+}
+.todos-list{
+    list-style: none;
+    padding: 0px;
+}
+.list-item-cont{
+    display: flex;
+}
+.icon{
+    width: 20px;
+}
+.list-item-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.label-cont{
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(215, 218, 187, 0.553);
+    border-left: 5px solid;
+    border-radius: 8px;
+    border-left-color: rgb(16, 115, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.label{
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: bold;
+}
+.checkbox{
+    width: 38px;
+}
+.checked{
+    text-decoration: line-through;
+}
+.save-btn{
+    background-color: rgb(16, 115, 235);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
